@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Nums | Erez Wiezel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="init()">
+    <h1>Welcome to the numbers game!</h1>
+    <h2>Press the numbers in sequential order (1,2,3...)</h2>
+    <div></div>
+    <button class="restart" onclick="restart(this)">Restart</button>
+    <button onclick="pickDifficulty(+16)">Beginner</button>
+    <button onclick="pickDifficulty(+25)">Experienced</button>
+    <button onclick="pickDifficulty(+36)">Impossible</button>
+    <table></table>
+
+    <footer>coffeeright &copy </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
